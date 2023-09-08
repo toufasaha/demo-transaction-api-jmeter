@@ -1,7 +1,7 @@
 # demo-transaction-api-jmeter
 
 ## About this project:
-### d-money is a demo financial related project where fake money can be transferred. In this project, I have created a script with the d-money api using Apache Jmeter. Here I have covered following tasks as create new user, login, deposit money, withdraw money, payment and balance check.
+### In this project, I have created a script with a public URL using Apache Jmeter. Here I gradually increased the load to find out the bottleneck/stress test point of the server &  find out the actual TPS(Transaction Per/Second) for 120000 users.
 
 ## Tools & Technology used:
 - Apache JMeter
@@ -13,4 +13,6 @@
 - ```jmeter -n -t path/test_name -l path/file_name.jtl -e -o path/file_name```
 
 ## Test Report
-![image](https://github.com/toufasaha/demo-transaction-api-jmeter/assets/55781612/cc085ca8-e80b-4149-bdb8-f6cd5755b2ad)
+![image](https://github.com/toufasaha/demo-transaction-api-jmeter/assets/55781612/9a06b30d-3cb3-475a-84e0-3b3f9379f5de)
+
+![image](https://github.com/toufasaha/demo-transaction-api-jmeter/assets/55781612/b73beceb-9fa8-4576-ac7b-a891aed4d4e5)
