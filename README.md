@@ -10,7 +10,7 @@
 - JDK
 
 ## How to run this project:
-- ```jmeter -n -t path/test_name -l path/file_name.jtl -e -o path/file_name```
+- ```jmeter -n -t yourfile.jmx -l yourfile-log.csv```
 
 ## Test Report
 ![image](https://github.com/toufasaha/demo-transaction-api-jmeter/assets/55781612/9a06b30d-3cb3-475a-84e0-3b3f9379f5de)
